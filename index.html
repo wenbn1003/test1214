@@ -1,87 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>入口1</title>
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
         }
-        h1{
+
+        h1 {
             padding: 30px;
             font-size: 50px;
             color: rgb(6, 43, 104);
         }
-        h2{
+
+        h2 {
             padding-left: 30px;
-            font-size: 40px;;
+            font-size: 40px;
+            ;
         }
 
-        h3{
+        h3 {
             padding-left: 30px;
-            font-size: 35px;;
+            font-size: 35px;
+            ;
         }
+
         @media screen and (max-width: 500pt) {
-            h1{
-            padding: 20px;
-            font-size: 28px;
-        }
-        h2{
-            padding-left: 20px;
-            font-size: 25px;;
-        }
+            h1 {
+                padding: 20px;
+                font-size: 28px;
+            }
 
-        h3{
-            padding-left: 20px;
-            font-size: 21px;;
-        }
-   
-        @media screen and (max-width: 320pt) {
-            h1{
-            padding: 10px;
-            font-size: 22px;
-        }
-        h2{
-            padding-left: 10px;
-            font-size: 20px;;
-        }
-        h3{
-            padding-left: 10px;
-            font-size: 17px;;
-        }
-}
+            h2 {
+                padding-left: 20px;
+                font-size: 25px;
+                ;
+            }
 
+            h3 {
+                padding-left: 20px;
+                font-size: 21px;
+                ;
+            }
+
+            @media screen and (max-width: 320pt) {
+                h1 {
+                    padding: 10px;
+                    font-size: 22px;
+                }
+
+                h2 {
+                    padding-left: 10px;
+                    font-size: 20px;
+                    ;
+                }
+
+                h3 {
+                    padding-left: 10px;
+                    font-size: 17px;
+                    ;
+                }
+            }
     </style>
 </head>
+
 <body>
     <h1>
-        live chat測試入口1
+        live chat測試入口1 <br>
+        testee專用
     </h1>
     <h2>
-        官網後台連結：<a href="https://accounts.livechat.com/?client_id=bb9e5b2f1ab480e4a715977b7b1b4279&response_type=token&redirect_uri=https%3A%2F%2Fmy.livechatinc.com&state=%7B%22redirectTo%22%3A%22settings%252Ftheme%22%7D" target="_blank">
+        官網後台連結：<a
+            href="https://accounts.livechat.com/?client_id=bb9e5b2f1ab480e4a715977b7b1b4279&response_type=token&redirect_uri=https%3A%2F%2Fmy.livechatinc.com&state=%7B%22redirectTo%22%3A%22settings%252Ftheme%22%7D"
+            target="_blank">
             點我前往
         </a>
     </h2>
-
-    <h3>
-    測試入口2<a href="index2.html" target="_blank">前往</a>
+    <br><br>
+    <h3 style="color: red;">
+        測試入口1(ee)當前
     </h3>
-
+    <br>
     <h3>
-    測試入口3<a href="index3.html" target="_blank">前往</a>
+        測試入口2(bb)<a href="index2.html" target="_blank">前往</a>
+    </h3>
+    <br>
+    <h3>
+        測試入口3(kk)<a href="index3.html" target="_blank">前往</a>
+    </h3>
+    <br>
+    <h3>
+        測試入口4(vv)<a href="index4.html" target="_blank">前往</a>
     </h3>
 
     <!-- Start of LiveChat (www.livechatinc.com) code -->
-<script>
-    window.__lc = window.__lc || {};
-    window.__lc.license = 12443553;
-    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
-</script>
-<noscript><a href="https://www.livechatinc.com/chat-with/12443553/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
-<!-- End of LiveChat code -->
+    <script>
+        window.__lc = window.__lc || {};
+        window.__lc.license = 12443553;
+        ; (function (n, t, c) { function i(n) { return e._h ? e._h.apply(null, n) : e._q.push(n) } var e = { _q: [], _h: null, _v: "2.0", on: function () { i(["on", c.call(arguments)]) }, once: function () { i(["once", c.call(arguments)]) }, off: function () { i(["off", c.call(arguments)]) }, get: function () { if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load."); return i(["get", c.call(arguments)]) }, call: function () { i(["call", c.call(arguments)]) }, init: function () { var n = t.createElement("script"); n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js", t.head.appendChild(n) } }; !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e }(window, document, [].slice))
+    </script>
+    <noscript><a href="https://www.livechatinc.com/chat-with/12443553/" rel="nofollow">Chat with us</a>, powered by <a
+            href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+    <!-- End of LiveChat code -->
 
 
 </body>
+
 </html>
